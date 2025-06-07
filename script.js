@@ -32,6 +32,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const toggleBtn = document.getElementById('view-all-projects');
 const hiddenProjects = document.getElementById('hidden-projects');
 const featuredSection = document.getElementById('projects');
+const contactSection = document.getElementById('contact');
 let showingAll = false;
 
 toggleBtn.addEventListener('click', () => {
@@ -39,11 +40,11 @@ toggleBtn.addEventListener('click', () => {
 
     if (showingAll) {
         hiddenProjects.classList.remove('hidden'); // Show all
-        toggleBtn.textContent = 'View Featured Projects Only';
+        toggleBtn.textContent = 'Contact Information';
     } else {
         hiddenProjects.classList.add('hidden'); // Hide extra
         toggleBtn.textContent = 'View All Projects';
-        featuredSection.scrollIntoView({ behavior: 'smooth' });
+        contactSection.scrollIntoView({ behavior: 'smooth' });
     }
 });
 

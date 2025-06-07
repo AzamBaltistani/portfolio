@@ -37,7 +37,7 @@
                 <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
                 <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
                 <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
-                <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+                <a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
                 <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
             </div>
             <button id="menu-button" class="md:hidden text-white">
@@ -54,7 +54,7 @@
                 <a href="#about" class="hover:text-blue-400 transition-colors">About</a>
                 <a href="#skills" class="hover:text-blue-400 transition-colors">Skills</a>
                 <a href="#projects" class="hover:text-blue-400 transition-colors">Projects</a>
-                <a href="#experience" class="hover:text-blue-400 transition-colors">Experience</a>
+                <a href="#education" class="hover:text-blue-400 transition-colors">Education</a>
                 <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
             </div>
         </div>
@@ -178,11 +178,8 @@
                     <div class="w-64 h-64 mx-auto rounded-full bg-gradient-to-br from-blue-400 to-indigo-600 p-1">
                         <div
                             class="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="h-40 w-40 text-slate-300" viewBox="0 0 20 20"
-                                fill="currentColor">
-                                <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
+                            <img src="./data/image_nobg.png" alt="Profile Picture"
+                                class="w-full h-full object-cover rounded-full">
                         </div>
                     </div>
                 </div>
@@ -197,6 +194,12 @@
                         </span>
                         (DJango, JS/TS,
                         ReactJS, HTML/CSS).
+                    </p>
+                    <p class="text-lg mb-6 text-slate-300">
+                        I solved many <span class="gradient-text">LeetCode</span> poblems and participated in
+                        competetive programming contests like <span class="gradient-text">IEEE Xtreme</span> 2021 and
+                        2022, LeetCode Biweekly contest, and
+                        more.
                     </p>
                     <p class="text-lg mb-6 text-slate-300">With a strong foundation in both theoretical concepts and
                         practical implementation, I specialize in computer vision, natural language processing,
@@ -388,13 +391,14 @@
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Autonomous Vision System</h3>
-                        <p class="text-slate-400 mb-4">Developed a real-time object detection and tracking system for
-                            autonomous robots using deep learning.</p>
+                        <h3 class="text-xl font-semibold mb-2">DeptAssistRobo – Final Year Project</h3>
+                        <p class="text-slate-400 mb-4">Autonomous robot that delivers files between departments using
+                            GPS and compass. Includes a voice-activated chatbot interface.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Computer Vision</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">PyTorch</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">ROS</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Arduino</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">GPS</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Voice
+                                Recognition</span>
                         </div>
                         <button
                             class="project-details-btn w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium hover:opacity-90 transition-opacity"
@@ -414,14 +418,13 @@
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Reinforcement Learning for Robotics</h3>
-                        <p class="text-slate-400 mb-4">Implemented RL algorithms to teach robotic arms complex
-                            manipulation tasks in simulated environments.</p>
+                        <h3 class="text-xl font-semibold mb-2">AI-Powered Microsoft Word Extension</h3>
+                        <p class="text-slate-400 mb-4">MS Word add-in that generates structured content, answers user
+                            queries using NLP, and integrates with the Word Ribbon.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Reinforcement
-                                Learning</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">TensorFlow</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Gazebo</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Office.js</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">LLM API</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">NLP</span>
                         </div>
                         <button
                             class="project-details-btn w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium hover:opacity-90 transition-opacity"
@@ -441,13 +444,13 @@
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Natural Language Robot Control</h3>
-                        <p class="text-slate-400 mb-4">Created a system that translates natural language commands into
-                            robot actions using NLP techniques.</p>
+                        <h3 class="text-xl font-semibold mb-2">Linear & Logistic Regression Projects</h3>
+                        <p class="text-slate-400 mb-4">Django web app to visualize ML models and error metrics using
+                            interactive charts. Includes form input and real-time predictions.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">NLP</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">BERT</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">ROS</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Django</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Plotly</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Regression</span>
                         </div>
                         <button
                             class="project-details-btn w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium hover:opacity-90 transition-opacity"
@@ -456,28 +459,25 @@
                 </div>
             </div>
 
-            <!-- Hidden Projects (Initially Hidden) -->
+            <!-- Hidden Projects -->
             <div id="hidden-projects" class="hidden mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Project 4 -->
                 <div class="project-card bg-slate-800 rounded-xl overflow-hidden border border-slate-700">
                     <div
                         class="h-48 bg-gradient-to-br from-blue-500/20 to-indigo-600/20 flex items-center justify-center p-6">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-blue-400" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z">
-                            </path>
+                                d="M9 12l2 2 4-4M7 20h10M5 4h14" />
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Swarm Robotics Coordination</h3>
-                        <p class="text-slate-400 mb-4">Developed algorithms for coordinating multiple robots to work
-                            together on complex tasks.</p>
+                        <h3 class="text-xl font-semibold mb-2">Real-Time Face Mask Detection</h3>
+                        <p class="text-slate-400 mb-4">Built a CV system to detect masks in surveillance feeds using
+                            CNNs and OpenCV.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Multi-agent
-                                Systems</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Distributed AI</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">ROS</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">OpenCV</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">CNN</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">TensorFlow</span>
                         </div>
                         <button
                             class="project-details-btn w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium hover:opacity-90 transition-opacity"
@@ -492,20 +492,17 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-blue-400" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4">
-                            </path>
+                                d="M9 17v-2a4 4 0 018 0v2m-4 4h.01" />
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Human-Robot Interaction System</h3>
-                        <p class="text-slate-400 mb-4">Created an intuitive interface for humans to interact with robots
-                            through gestures and voice commands.</p>
+                        <h3 class="text-xl font-semibold mb-2">Handwritten Digit Classifier</h3>
+                        <p class="text-slate-400 mb-4">Trained a digit recognition model on MNIST and deployed it with a
+                            web UI for drawing predictions.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">HRI</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Speech
-                                Recognition</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Gesture
-                                Recognition</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Keras</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Flask</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">MNIST</span>
                         </div>
                         <button
                             class="project-details-btn w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium hover:opacity-90 transition-opacity"
@@ -520,18 +517,17 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-blue-400" fill="none"
                             viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
-                                d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                                d="M15 10l4.553 2.276A1 1 0 0120 13v1a1 1 0 01-.447.724L15 17v-2H4v-2h11v-2z" />
                         </svg>
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2">Edge AI for Robotics</h3>
-                        <p class="text-slate-400 mb-4">Optimized deep learning models to run efficiently on edge devices
-                            for real-time robotic applications.</p>
+                        <h3 class="text-xl font-semibold mb-2">Image Colorization with GANs</h3>
+                        <p class="text-slate-400 mb-4">Used conditional GANs to automatically colorize grayscale images
+                            with photo-realistic results.</p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Edge Computing</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Model
-                                Optimization</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">TensorRT</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">GANs</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Image Processing</span>
+                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">PyTorch</span>
                         </div>
                         <button
                             class="project-details-btn w-full py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-lg font-medium hover:opacity-90 transition-opacity"
@@ -542,10 +538,12 @@
 
             <div class="mt-12 text-center">
                 <button id="view-all-projects"
-                    class="px-6 py-3 border border-blue-400 text-blue-400 rounded-lg font-medium hover:bg-blue-400/10 transition-colors">View
-                    All Projects</button>
+                    class="px-6 py-3 border border-blue-400 text-blue-400 rounded-lg font-medium hover:bg-blue-400/10 transition-colors">
+                    View All Projects
+                </button>
             </div>
         </div>
+
 
         <!-- Project Details Modal -->
         <div id="project-modal" class="fixed inset-0 z-50 hidden">
@@ -568,14 +566,14 @@
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="experience" class="py-20 bg-slate-900">
+    <!-- Education and Certificates Section -->
+    <section id="education" class="py-20 bg-slate-900">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Work <span
-                    class="gradient-text">Experience</span></h2>
+            <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Education & <span
+                    class="gradient-text">Certificates</span></h2>
 
             <div class="relative border-l-2 border-blue-400/30 pl-8 ml-4 md:ml-12 space-y-12">
-                <!-- Experience 1 -->
+                <!-- Education -->
                 <div>
                     <div
                         class="absolute -left-4 w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
@@ -583,25 +581,19 @@
                     </div>
                     <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
                         <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
-                            <h3 class="text-xl font-semibold">Senior AI Engineer</h3>
-                            <div class="flex items-center mt-2 md:mt-0">
-                                <span class="text-blue-400">2021 - Present</span>
-                                <span class="ml-3 px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">Current</span>
-                            </div>
+                            <h3 class="text-xl font-semibold">Bachelor of Science, Intelligent Systems and Robotics</h3>
+                            <span class="text-blue-400 mt-2 md:mt-0">2021 - 2025</span>
                         </div>
-                        <h4 class="text-lg text-blue-300 mb-4">TechRobotics Inc.</h4>
+                        <h4 class="text-lg text-blue-300 mb-4">The Islamia University of Bahawalpur</h4>
                         <ul class="list-disc list-inside space-y-2 text-slate-300">
-                            <li>Lead the development of computer vision algorithms for autonomous navigation systems
-                            </li>
-                            <li>Designed and implemented deep learning models for real-time object detection and
-                                tracking</li>
-                            <li>Collaborated with hardware teams to optimize AI algorithms for embedded systems</li>
-                            <li>Mentored junior engineers and conducted technical workshops</li>
+                            <li>Focused on AI, machine learning, robotics, and embedded systems</li>
+                            <li>Completed projects on autonomous navigation and smart robotics</li>
+                            <li>Active participant in AI and Robotics Society</li>
                         </ul>
                     </div>
                 </div>
 
-                <!-- Experience 2 -->
+                <!-- Certificate -->
                 <div>
                     <div
                         class="absolute -left-4 w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
@@ -609,42 +601,21 @@
                     </div>
                     <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
                         <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
-                            <h3 class="text-xl font-semibold">Robotics Engineer</h3>
-                            <span class="text-blue-400 mt-2 md:mt-0">2018 - 2021</span>
+                            <h3 class="text-xl font-semibold">Certificate in Artificial Intelligence (10 Months)</h3>
+                            <span class="text-blue-400 mt-2 md:mt-0 gradient-text">2024</span>
                         </div>
-                        <h4 class="text-lg text-blue-300 mb-4">AI Solutions Ltd.</h4>
+                        <h4 class="text-lg text-blue-300 mb-4">DeepEmbeded, Bahawalpur, Pakistan</h4>
                         <ul class="list-disc list-inside space-y-2 text-slate-300">
-                            <li>Developed control systems for robotic manipulators using ROS</li>
-                            <li>Implemented SLAM algorithms for indoor navigation</li>
-                            <li>Created simulation environments for testing robotic behaviors</li>
-                            <li>Contributed to open-source robotics libraries</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Experience 3 -->
-                <div>
-                    <div
-                        class="absolute -left-4 w-6 h-6 rounded-full bg-gradient-to-r from-blue-400 to-indigo-500 flex items-center justify-center">
-                        <div class="w-2 h-2 rounded-full bg-white"></div>
-                    </div>
-                    <div class="bg-slate-800/50 rounded-xl p-6 border border-slate-700">
-                        <div class="flex flex-col md:flex-row md:justify-between md:items-center mb-4">
-                            <h3 class="text-xl font-semibold">Machine Learning Researcher</h3>
-                            <span class="text-blue-400 mt-2 md:mt-0">2016 - 2018</span>
-                        </div>
-                        <h4 class="text-lg text-blue-300 mb-4">Tech University AI Lab</h4>
-                        <ul class="list-disc list-inside space-y-2 text-slate-300">
-                            <li>Conducted research on reinforcement learning algorithms for robotic applications</li>
-                            <li>Published papers in top-tier AI and robotics conferences</li>
-                            <li>Developed novel approaches for transfer learning in robotic control</li>
-                            <li>Collaborated with industry partners on applied AI projects</li>
+                            <li>Hands-on training in deep learning, computer vision, and NLP</li>
+                            <li>Completed real-world AI projects under expert supervision</li>
+                            <li>Gained experience with TensorFlow, PyTorch, and OpenCV</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-slate-800/50">
@@ -671,7 +642,7 @@
                                     </div>
                                     <div>
                                         <p class="text-sm text-slate-400 mb-1">Email</p>
-                                        <p class="text-blue-300">contact@airoboticsportfolio.com</p>
+                                        <p class="text-blue-300">sikanderazam276@gmail.com</p>
                                     </div>
                                 </div>
 
@@ -686,8 +657,8 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <p class="text-sm text-slate-400 mb-1">Phone</p>
-                                        <p class="text-blue-300">+1 (555) 123-4567</p>
+                                        <p class="text-sm text-slate-400 mb-1">Phone/WhatsApp</p>
+                                        <p class="text-blue-300">+92 318 5836395</p>
                                     </div>
                                 </div>
 
@@ -705,7 +676,7 @@
                                     </div>
                                     <div>
                                         <p class="text-sm text-slate-400 mb-1">Location</p>
-                                        <p class="text-blue-300">San Francisco, CA</p>
+                                        <p class="text-blue-300">Bahawalpur</p>
                                     </div>
                                 </div>
                             </div>
@@ -714,20 +685,8 @@
                         <div>
                             <h4 class="text-xl font-semibold mb-6">Connect with me</h4>
                             <div class="grid grid-cols-2 gap-4">
-                                <a href="#"
-                                    class="flex items-center p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700 transition-colors">
-                                    <div
-                                        class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-3">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400"
-                                            fill="currentColor" viewBox="0 0 24 24">
-                                            <path
-                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z">
-                                            </path>
-                                        </svg>
-                                    </div>
-                                    <span>Facebook</span>
-                                </a>
-                                <a href="#"
+                                <a href="https://www.linkedin.com/in/sikander-azam-899822265/" target="_blank"
+                                    rel="noopener noreferrer"
                                     class="flex items-center p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700 transition-colors">
                                     <div
                                         class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-3">
@@ -740,7 +699,7 @@
                                     </div>
                                     <span>LinkedIn</span>
                                 </a>
-                                <a href="#"
+                                <a href="https://github.com/AzamBaltistani" target="_blank" rel="noopener noreferrer"
                                     class="flex items-center p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700 transition-colors">
                                     <div
                                         class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-3">
@@ -753,24 +712,45 @@
                                     </div>
                                     <span>GitHub</span>
                                 </a>
-                                <a href="#"
+                                <a href="https://leetcode.com/u/sikanderazam276/" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="flex items-center p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700 transition-colors">
+                                    <div
+                                        class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-3">
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400"
+                                            fill="currentColor" viewBox="0 0 24 24" id="leetcodelogo">
+                                            <path fill="#B3B1B0"
+                                                d="M22 14.355c0-.742-.564-1.346-1.26-1.346H10.676c-.696 0-1.26.604-1.26 1.346s.563 1.346 1.26 1.346H20.74c.696.001 1.26-.603 1.26-1.346z">
+                                            </path>
+                                            <path fill="#E7A41F"
+                                                d="m3.482 18.187 4.313 4.361c.973.979 2.318 1.452 3.803 1.452 1.485 0 2.83-.512 3.805-1.494l2.588-2.637c.51-.514.492-1.365-.039-1.9-.531-.535-1.375-.553-1.884-.039l-2.676 2.607c-.462.467-1.102.662-1.809.662s-1.346-.195-1.81-.662l-4.298-4.363c-.463-.467-.696-1.15-.696-1.863 0-.713.233-1.357.696-1.824l4.285-4.38c.463-.467 1.116-.645 1.822-.645s1.346.195 1.809.662l2.676 2.606c.51.515 1.354.497 1.885-.038.531-.536.549-1.387.039-1.901l-2.588-2.636a4.994 4.994 0 0 0-2.392-1.33l-.034-.007 2.447-2.503c.512-.514.494-1.366-.037-1.901-.531-.535-1.376-.552-1.887-.038l-10.018 10.1C2.509 11.458 2 12.813 2 14.311c0 1.498.509 2.896 1.482 3.876z">
+                                            </path>
+                                            <path fill="#070706"
+                                                d="M8.115 22.814a2.109 2.109 0 0 1-.474-.361c-1.327-1.333-2.66-2.66-3.984-3.997-1.989-2.008-2.302-4.937-.786-7.32a6 6 0 0 1 .839-1.004L13.333.489c.625-.626 1.498-.652 2.079-.067.56.563.527 1.455-.078 2.066-.769.776-1.539 1.55-2.309 2.325-.041.122-.14.2-.225.287-.863.876-1.75 1.729-2.601 2.618-.111.116-.262.186-.372.305-1.423 1.423-2.863 2.83-4.266 4.272-1.135 1.167-1.097 2.938.068 4.127 1.308 1.336 2.639 2.65 3.961 3.974.067.067.136.132.204.198.468.303.474 1.25.183 1.671-.321.465-.74.75-1.333.728-.199-.006-.363-.086-.529-.179z">
+                                            </path>
+                                        </svg>
+                                    </div>
+                                    <span>LeetCode</span>
+                                </a>
+                                <a href="https://www.facebook.com/s.azam.baltistani" target="_blank"
+                                    rel="noopener noreferrer"
                                     class="flex items-center p-4 bg-slate-700/50 rounded-lg hover:bg-slate-700 transition-colors">
                                     <div
                                         class="w-10 h-10 rounded-full bg-blue-500/20 flex items-center justify-center mr-3">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-400"
                                             fill="currentColor" viewBox="0 0 24 24">
                                             <path
-                                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z">
+                                                d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z">
                                             </path>
                                         </svg>
                                     </div>
-                                    <span>Twitter</span>
+                                    <span>Facebook</span>
                                 </a>
+
                             </div>
 
                             <div class="mt-8 p-4 bg-blue-500/10 rounded-lg border border-blue-500/20">
-                                <p class="text-slate-300">Feel free to reach out for collaborations, project inquiries,
-                                    or just to connect!</p>
+                                <p class="text-slate-300">Feel free to reach out and contact</p>
                             </div>
                         </div>
                     </div>
@@ -793,14 +773,15 @@
                             </path>
                         </svg>
                     </div>
-                    <span class="text-lg font-bold tracking-tight">John Doe</span>
+                    <span class="text-lg font-bold tracking-tight">Sikander Azam</span>
                 </div>
-                <p class="text-slate-400 text-sm">© 2023 AI &amp; Robotics Engineer. All rights reserved.</p>
+                <p class="text-slate-400 text-sm">This Portfolio, Code and Data is available to everyone under MIT
+                    License</p>
             </div>
         </div>
     </footer>
 
-    <script src="script.js"></script> />
+    <script src="script.js"></script>
 </body>
 
 </html>
