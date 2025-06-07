@@ -4,7 +4,7 @@ const mobileMenu = document.getElementById('mobile-menu');
 
 if (menuButton && mobileMenu) {
     menuButton.addEventListener('click', () => {
-        mobileMenu.classList.toggle('hidden');   // Tailwind utility
+        mobileMenu.classList.toggle('hidden');
         console.log("Menu toggled");
     });
 }
@@ -19,14 +19,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 behavior: 'smooth'
             });
 
-            // close mobile menu after click (if it's open)
             if (window.innerWidth < 768 && mobileMenu && !mobileMenu.classList.contains('hidden')) {
                 mobileMenu.classList.add('hidden');
             }
         }
     });
 });
-
 
 // View All Projects toggle
 const toggleBtn = document.getElementById('view-all-projects');
@@ -39,15 +37,14 @@ toggleBtn.addEventListener('click', () => {
     showingAll = !showingAll;
 
     if (showingAll) {
-        hiddenProjects.classList.remove('hidden'); // Show all
+        hiddenProjects.classList.remove('hidden');
         toggleBtn.textContent = 'Contact Information';
     } else {
-        hiddenProjects.classList.add('hidden'); // Hide extra
+        hiddenProjects.classList.add('hidden');
         toggleBtn.textContent = 'View All Projects';
         contactSection.scrollIntoView({ behavior: 'smooth' });
     }
 });
-
 
 const sentences = [
     "Building intelligent systems for tomorrow.",
@@ -55,7 +52,6 @@ const sentences = [
     "Engineering AI that transforms industries.",
     "Solving real-world problems with code."
 ];
-
 const el = document.getElementById("typewriter");
 let sentenceIndex = 0;
 let charIndex = 0;
@@ -68,10 +64,10 @@ function typeLoop() {
 
     if (!isDeleting && charIndex < current.length) {
         charIndex++;
-        setTimeout(typeLoop, 80);
+        setTimeout(typeLoop, 50);
     } else if (isDeleting && charIndex > 0) {
         charIndex--;
-        setTimeout(typeLoop, 40);
+        setTimeout(typeLoop, 30);
     } else {
         isDeleting = !isDeleting;
         if (!isDeleting) {
