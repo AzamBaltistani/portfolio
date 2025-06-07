@@ -47,10 +47,16 @@ toggleBtn.addEventListener('click', () => {
 });
 
 const sentences = [
-    "Building intelligent systems for tomorrow.",
-    "Creating robots that learn and adapt.",
-    "Engineering AI that transforms industries.",
-    "Solving real-world problems with code."
+    "I build AI tools that actually work.",
+    "Passionate about AI, robots, code, and making cool things.",
+    "Exploring AI, one project at a time.",
+    "Eat. Sleep. Code. Repeat",
+    "Turning ideas into intelligent systems.",
+    "From small scripts to smart robots — I make it all.",
+    "Learning. Building. Breaking. Repeating.",
+    "I make machines think (kind of).",
+    "Engineer by degree, creator by choice.",
+    "Code is my toolkit. Curiosity is my fuel."
 ];
 const el = document.getElementById("typewriter");
 let sentenceIndex = 0;
