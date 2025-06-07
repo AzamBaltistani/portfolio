@@ -44,7 +44,7 @@ toggleBtn.addEventListener('click', () => {
     } else {
         hiddenProjects.classList.add('hidden'); // Hide extra
         toggleBtn.textContent = 'View All Projects';
-        contactSection.scrollIntoView({ behavior: 'smooth' });
+        conta.scrollIntoView({ behavior: 'smooth' });
     }
 });
 
