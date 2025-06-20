@@ -26,26 +26,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// View All Projects toggle
-const toggleBtn = document.getElementById('view-all-projects');
-const hiddenProjects = document.getElementById('hidden-projects');
-const featuredSection = document.getElementById('projects');
-const contactSection = document.getElementById('contact');
-let showingAll = false;
-
-toggleBtn.addEventListener('click', () => {
-    showingAll = !showingAll;
-
-    if (showingAll) {
-        hiddenProjects.classList.remove('hidden');
-        toggleBtn.textContent = 'Contact Information';
-    } else {
-        hiddenProjects.classList.add('hidden');
-        toggleBtn.textContent = 'View All Projects';
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-    }
-});
-
 const sentences = [
     "I build AI tools that actually work.",
     "Passionate about AI, robots, code, and making cool things.",
@@ -82,5 +62,25 @@ function typeLoop() {
         setTimeout(typeLoop, 1000);
     }
 }
-
 document.addEventListener("DOMContentLoaded", typeLoop);
+
+document.addEventListener('DOMContentLoaded', () => {
+    const elements = document.querySelectorAll('.animate-on-scroll');
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                // Optionally, stop observing once animated
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.1, // Trigger when 10% of the element is visible
+        rootMargin: '0px 0px -50px 0px' // Adjust to trigger slightly before element is fully in view
+    });
+
+    elements.forEach((element) => {
+        observer.observe(element);
+    });
+});
