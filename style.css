@@ -1263,7 +1263,8 @@ video {
 }
 
 .scrollbar-custom::-webkit-scrollbar {
-    height: 8px;
+    height: 6px;
+    width: 4px;
 }
 
 .scrollbar-custom::-webkit-scrollbar-track {

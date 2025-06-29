@@ -189,7 +189,7 @@
                         <strong class="">
                             expertise in AI
                         </strong>
-                        (Machine Learning, NLP, Image Processing, and more) with
+                        (Machine Learning, NLP / Chatbot, Image Processing, and more) with
                         <strong class="">
                             Web Development
                         </strong>
@@ -378,107 +378,92 @@
             </h2>
 
             <!-- Featured Projects -->
-            <!-- Large Featured Projects - Horizontal Scroll -->
             <div class="flex gap-6 overflow-x-auto pb-4 scrollbar-custom animate-on-scroll overflow-y-hidden">
+
                 <!-- Project 1 -->
                 <div
-                    class="w-[320px] md:w-[560px] lg:w-[720px] flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 animate-on-scroll">
-                    <img src="/images/MediAi-LandingPage.png" alt="DeptAssistRobo Screenshot"
-                        class="w-full h-56 object-cover" />
-                    <div class="p-6 animate-on-scroll">
-                        <h3 class="text-xl font-semibold mb-2">Medi-AI</h3>
-                        <p class="text-slate-400 mb-4">
-                        <ul>
-                            <li><strong>AI Health Platform:</strong> Developed a web app with features like mental
-                                health analysis, disease prediction, and an AI chatbot.</li>
-                            <li><strong>Tech Stack:</strong> Used Django REST, ReactJS, and integrated ML
-                                models for predictions.</li>
-                            <li><strong>Smart UI/UX:</strong> Designed responsive UI with charts, animations, and chat
-                                history using local storage.</li>
-                        </ul>
+                    class="w-[320px] md:w-[560px] lg:w-[720px] h-[70vh] flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 animate-on-scroll flex flex-col">
 
-                        </p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Django</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">ReactJS</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">LSTM (disease
-                                Prediction)</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">XGBoost Regressor
-                                (Health and Sanity)</span>
+                    <div class="h-1/2 overflow-x-auto flex gap-2 bg-black no-scrollbar scrollbar-custom">
+                        <img src="/images/MediAi-LandingPage.png" alt="Screenshot 1"
+                            class="h-full object-contain flex-shrink-0" />
+                        <img src="/images/MediAi-ScreenTimeSS.png" alt="Screenshot 2"
+                            class="h-full object-contain flex-shrink-0" />
+                        <img src="/images/MediAi-ChatbotSS.png" alt="Screenshot 3"
+                            class="h-full object-contain flex-shrink-0" />
+                    </div>
+
+                    <div class="h-1/2 flex flex-col justify-between p-6 bg-slate-800">
+
+                        <div class="overflow-y-auto pr-1 scrollbar-custom">
+                            <h3 class="text-xl font-semibold mb-2">Medi-AI</h3>
+                            <ul class="list-disc list-inside text-slate-400 text-sm md:text-base space-y-1 mb-4">
+                                <li><strong>AI Health Platform:</strong> Developed a web app with features like mental
+                                    health analysis, disease prediction, and an AI chatbot.</li>
+                                <li><strong>Tech Stack:</strong> Used Django REST, ReactJS, and integrated ML models for
+                                    predictions.</li>
+                                <li><strong>Smart UI/UX:</strong> Designed responsive UI with charts, animations, and
+                                    chat
+                                    history using local storage.</li>
+                            </ul>
+
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Django</span>
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">ReactJS</span>
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">LSTM</span>
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">XGBoost</span>
+                            </div>
                         </div>
-                        <a href="https://medi-ai-azambaltistani.streamlit.app/" target="_blank"
-                            class="inline-block mt-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition">
-                            View Project (Streamlit Version)
-                        </a>
+
+                        <!-- Fixed Bottom Button -->
+                        <div class="mt-4">
+                            <a href="https://medi-ai-azambaltistani.streamlit.app/" target="_blank"
+                                class="block text-center w-full px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition">
+                                View Project (Streamlit Version)
+                            </a>
+                        </div>
+
                     </div>
                 </div>
 
-                <!-- Project 2 -->
-
+                <!-- Project 2 - ML Algorithm Visualizer -->
                 <div
-                    class="w-[320px] md:w-[560px] lg:w-[720px] flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 animate-on-scroll">
-                    <img src="/images/dept-assist.jpg" alt="DeptAssistRobo Screenshot"
-                        class="w-full h-56 object-cover" />
-                    <div class="p-6 animate-on-scroll">
-                        <h3 class="text-xl font-semibold mb-2 ">DeptAssistRobo – Final Year Project</h3>
-                        <p class="text-slate-400 mb-4">Autonomous robot that delivers files between departments using
-                            GPS and compass. Includes a voice-activated chatbot interface.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Arduino</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">GPS</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Voice
-                                Recognition</span>
-                        </div>
-                        <a href="#"
-                            class="inline-block mt-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                <div
-                    class="w-[320px] md:w-[560px] lg:w-[720px] flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 animate-on-scroll">
-                    <img src="/images/dept-assist.jpg" alt="DeptAssistRobo Screenshot"
-                        class="w-full h-56 object-cover" />
-                    <div class="p-6 animate-on-scroll">
-                        <h3 class="text-xl font-semibold mb-2 ">DeptAssistRobo – Final Year Project</h3>
-                        <p class="text-slate-400 mb-4">Autonomous robot that delivers files between departments using
-                            GPS and compass. Includes a voice-activated chatbot interface.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Arduino</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">GPS</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Voice
-                                Recognition</span>
-                        </div>
-                        <a href="#"
-                            class="inline-block mt-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition">
-                            View Project
-                        </a>
-                    </div>
-                </div>
-                <div
-                    class="w-[320px] md:w-[560px] lg:w-[720px] flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 animate-on-scroll">
-                    <img src="/images/dept-assist.jpg" alt="DeptAssistRobo Screenshot"
-                        class="w-full h-56 object-cover" />
-                    <div class="p-6 animate-on-scroll">
-                        <h3 class="text-xl font-semibold mb-2 ">DeptAssistRobo – Final Year Project</h3>
-                        <p class="text-slate-400 mb-4">Autonomous robot that delivers files between departments using
-                            GPS and compass. Includes a voice-activated chatbot interface.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Arduino</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">GPS</span>
-                            <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Voice
-                                Recognition</span>
-                        </div>
-                        <a href="#"
-                            class="inline-block mt-2 px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition">
-                            View Project
-                        </a>
-                    </div>
-                </div>
+                    class="w-[320px] md:w-[560px] lg:w-[720px] h-[70vh] flex-shrink-0 bg-slate-800 rounded-xl overflow-hidden border border-slate-700 animate-on-scroll flex flex-col">
 
+                    <div class="h-1/2 overflow-x-auto flex gap-2 bg-black no-scrollbar scrollbar-custom">
+                        <img src="/images/linear_reg.gif" alt="Regression Visualizer"
+                            class="h-full object-contain flex-shrink-0" />
+                        <img src="/images/kmeans_1.gif" alt="KMeans Visualizer"
+                            class="h-full object-contain flex-shrink-0" />
+                        <img src="/images/DBSCAN_SS.png" alt="DBSCAN Visualizer"
+                            class="h-full object-contain flex-shrink-0" />
+                    </div>
 
+                    <div class="h-1/2 flex flex-col justify-between p-6 bg-slate-800">
+
+                        <div class="overflow-y-auto pr-1 scrollbar-custom">
+                            <h3 class="text-xl font-semibold mb-2">ML Algorithm Visualizer – Interactive Web App</h3>
+                            <p class="text-slate-400 mb-4 text-sm md:text-base">
+                                Users can add data points, adjust parameters, and see model
+                                outputs update in real time.
+                            </p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">Regression</span>
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">DBSCAN</span>
+                                <span class="px-2 py-1 bg-blue-500/10 text-blue-300 rounded text-xs">K-Means</span>
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <a href="https://ml-visualizer-azambaltistani.streamlit.app/" target="_blank"
+                                class="block text-center w-full px-4 py-2 bg-gradient-to-r from-blue-500 to-indigo-600 rounded-md text-white font-medium hover:opacity-90 transition">
+                                View Project - Explore Playgrouds
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-        </div>
 
     </section>
 
@@ -523,7 +508,7 @@
                                 (10 Months)</h3>
                             <span class="text-blue-400 mt-2 md:mt-0 gradient-text animate-on-scroll">2024</span>
                         </div>
-                        <h4 class="text-lg text-blue-300 mb-4 animate-on-scroll">DeepEmbeded, Bahawalpur, Pakistan</h4>
+                        <h4 class="text-lg text-blue-300 mb-4 animate-on-scroll">PAK AI Vission Group, USA</h4>
                         <ul class="list-disc list-inside space-y-2 text-slate-300 animate-on-scroll">
                             <li>Hands-on training in deep learning, computer vision, and NLP</li>
                             <li>Completed real-world AI projects under expert supervision</li>
